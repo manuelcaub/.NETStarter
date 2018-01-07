@@ -25,7 +25,7 @@
         public string Get(int id)
         {
             _logger.LogInformation($"GET api/values/{id}");
-            return "value";
+            return "value" + id;
         }
 
         [HttpPost]
