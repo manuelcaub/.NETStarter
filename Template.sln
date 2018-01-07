@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{942A2DFC-B3BE-416B-AF5F-DAE614EC02FC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{EA2DEC6B-BF5F-497A-9649-5049F776E7BB}"
+	ProjectSection(SolutionItems) = preProject
+		common\.ruleset = common\.ruleset
+		common\stylecop.json = common\stylecop.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
