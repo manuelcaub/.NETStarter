@@ -1,10 +1,10 @@
-﻿using System;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using NLog.Web;
-
-namespace Api
+﻿namespace Api
 {
+    using System;
+    using Microsoft.AspNetCore;
+    using Microsoft.AspNetCore.Hosting;
+    using NLog.Web;
+
     public class Program
     {
         public static void Main(string[] args)

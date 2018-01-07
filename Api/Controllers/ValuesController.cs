@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-
-namespace Api.Controllers
+﻿namespace Api.Controllers
 {
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
@@ -18,7 +18,7 @@ namespace Api.Controllers
         public IEnumerable<string> Get()
         {
             _logger.LogInformation("GET api/values");
-            return new [] { "value1", "value2" };
+            return new[] { "value1", "value2" };
         }
 
         [HttpGet("{id}")]
